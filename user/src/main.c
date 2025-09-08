@@ -43,9 +43,7 @@
 /**
  * @brief  Main program.
  */
- //测试推送git
- //测试推送git22222
-  //测试推送git3333333333
+//测试测试测试测试测试//测试测试测试测试测试//测试测试测试测试测试//测试测试测试测试测试
  /* 统一把系统时钟更新一下，确保 SystemCoreClock 正确 */
 static void Setup_SysTick_1ms(void)
 {
