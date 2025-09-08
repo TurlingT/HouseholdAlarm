@@ -51,3 +51,4 @@ echo *.uvguix.*>> .gitignore
 echo *.uvoptx>> .gitignore
 echo *.bak>> .gitignore
 echo *.old>> .gitignore
+.vscode/*.log
