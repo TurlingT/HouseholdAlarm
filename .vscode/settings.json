@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "stdint.h": "c"
+        "stdint.h": "c",
+        "n32g031.h": "c",
+        "main.h": "c",
+        "stdio.h": "c"
     }
 }

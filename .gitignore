@@ -1,0 +1,53 @@
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.o
+*.d
+*.axf
+*.tra
+*.dep          
+JLinkLog.txt
+*.iex
+*.htm
+*.sct
+*.map
+*.Administrator
+*.uvopt
+echo # VS Code logs>> .gitignore
+echo .vscode/*.log>> .gitignore
+echo .vscode/*.log.lock>> .gitignore
+
+echo # Keil / MDK build outputs>> .gitignore
+echo Listings/>> .gitignore
+echo Objects/>> .gitignore
+echo RTE/>> .gitignore
+echo Build/>> .gitignore
+echo out/>> .gitignore
+echo tmp/>> .gitignore
+echo *.axf>> .gitignore
+echo *.elf>> .gitignore
+echo *.hex>> .gitignore
+echo *.bin>> .gitignore
+echo *.map>> .gitignore
+echo *.o>> .gitignore
+echo *.d>> .gitignore
+echo *.crf>> .gitignore
+echo *.lst>> .gitignore
+echo *.lnp>> .gitignore
+echo *.dep>> .gitignore
+echo *.plg>> .gitignore
+echo *.uvguix.*>> .gitignore
+echo *.uvoptx>> .gitignore
+echo *.bak>> .gitignore
+echo *.old>> .gitignore

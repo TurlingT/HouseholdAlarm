@@ -56,7 +56,7 @@ static void Setup_SysTick_1ms(void)
 }
  
 static void on_cd_finished(void){
-    /* 到时响铃/拉GPIO/置标志等…（注意尽量短小） */
+    /* 到时响铃/拉GPIO/置标志等…(注意尽量短小) */
     BeepOn(BZ_PORT, BZ_PIN);
     Delay(0x1B01FF);
     BeepOff(BZ_PORT, BZ_PIN);
