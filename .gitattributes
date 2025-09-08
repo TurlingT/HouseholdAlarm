@@ -1,0 +1,23 @@
+# 默认按平台自动处理文本文件换行
+* text=auto
+
+# 源码统一用 LF（避免编译器/工具链问题）
+*.c  text eol=lf
+*.h  text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.s  text eol=lf
+*.ld text eol=lf
+Makefile text eol=lf
+
+# Windows 批处理/脚本保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制不做文本归一
+*.png -text
+*.jpg -text
+*.zip -text
+*.bin -text
+*.hex -text
+*.axf -text
